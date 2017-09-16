@@ -1,136 +1,157 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Joe Bloggs - Curriculum Vitae</title>
+	<title>CHUN TSAI - Curriculum Vitae</title>
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
-<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width" />
+	<meta name="description" content="The Curriculum Vitae of Joe Bloggs." />
+	<meta charset="UTF-8">
 
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
+	<!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
+
 <body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
-		</div>
-		
-		<div id="name">
-			<h1 class="quickFade delayTwo">Joe Bloggs</h1>
-			<h2 class="quickFade delayThree">Job Title</h2>
-		</div>
-		
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">joe@bloggs.com</a></li>
-				<li>w: <a href="http://www.bloggs.com">www.bloggs.com</a></li>
-				<li>m: 01234567890</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-	
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-				
-				<div class="sectionContent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
+	<div id="cv" class="instaFade">
+		<div class="mainDetails">
+			<div id="headshot" class="quickFade">
+				<img src="{% static 'css/mike.jpg' %}" alt="Alan Smith" />
 			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">April 2011 - Present</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">Janruary 2007 - March 2011</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
+
+			<div id="name">
+				<h1 class="quickFade delayTwo">蔡 鈞 CHUN TSAI </h1>
+				<h2 class="quickFade delayThree">Full Stack developer</h2>
 			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Key Skills</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
+
+			<div id="contactDetails" class="quickFade delayFour">
+				<ul>
+					<li><i class="fa fa-envelope-o  " aria-hidden="true"></i>&nbsp;&nbsp;:&nbsp;<a href="" target="_blank">&nbsp;mike840609@gmail.com</a></li>
+					<li><i class="fa fa-globe " aria-hidden="true"></i>&nbsp;&nbsp;:&nbsp;<a href="https://chuntsai.herokuapp.com/">&nbsp;https://chuntsai.herokuapp.com/</a></li>
+					<li><i class="fa fa-github " aria-hidden="true"></i>&nbsp;&nbsp;:&nbsp;<a href="https://github.com/mike840609">&nbsp;https://github.com/mike840609</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;:&nbsp;<a href="" target="_blank">&nbsp;09-6095-5609</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-			
-			<div class="sectionContent">
+		</div>
+
+		<div id="mainArea" class="quickFade delayFive">
+			<section>
 				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+					<div class="sectionTitle">
+						<h1>Personal Profile</h1>
+					</div>
+
+					<div class="sectionContent">
+						<p>I like to challenge the new things from my childhood ,and have acquired basic knowledge of my major during my school
+							time. But more importantly, I spend a lot of time learning things of interest, such as mobile phone APP development
+							and Platform-as-a-like like HEROKU , and as a teaching assistant in college . </p>
+					</div>
 				</article>
-				
-				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
+				<div class="clear"></div>
+			</section>
+
+
+			<section>
+				<div class="sectionTitle">
+					<h1>Work Experience</h1>
+				</div>
+
+				<div class="sectionContent">
+					<article>
+						<h2>IOS developer at DITU</h2>
+						<p class="subDetails">January 2016 - July 2016</p>
+						<p> Working on a team and using source control for the projects , using swift as the development language.</p>
+					</article>
+
+					<article>
+						<h2> Summer Internships at Taiwan Network Information Center(TWNIC)</h2>
+						<p class="subDetails">July 2015 - September 2015</p>
+						<p>To promote users to upgrade IPV6 in order to solve the problem that IP address is not enough, and to help solve the
+							relevant issues</p>
+					</article>
+
+					<article>
+						<h2>Computer Maintenance Technician at SHU computer centre</h2>
+						<p class="subDetails">September 2013 - March 2014</p>
+						<p>The job is responsible for computer maintenance, including software and hardware.</p>
+					</article>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+
+			<section>
+				<div class="sectionTitle">
+					<h1>Key Skills</h1>
+				</div>
+
+				<div class="sectionContent">
+					<ul class="keySkills">
+						<li>Swift</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>C</li>
+						<li>C#</li>
+						<li>Html</li>
+						<li>CSS</li>
+						<li>PHP</li>
+						<li>JSP</li>
+						<li>Matlab</li>
+						<li>Bootstrap</li>
+						<li>larvel</li>
+						<li>Django</li>
+						<li>Spring</li>
+						<li>Git</li>
+
+
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+
+			<section>
+				<div class="sectionTitle">
+					<h1>Education</h1>
+				</div>
+
+				<div class="sectionContent">
+					<article>
+						<h2>National Cheng Kung University/Master</h2>
+						<p class="subDetails">Information management (IM)</p>
+						<p>The current research focuses on artificial intelligence, big data, Java cloud computing, business intelligence, data
+							mining, text mining, time series mining, and computational intelligence (neural, fuzzy, and evolutionary computation).
+							Incidentally, I am also a member of the Knowledge System Laboratory (KSLab) </p>
+					</article>
+
+					<article>
+						<h2>Fu Jen Catholic University/Bachelo</h2>
+						<p class="subDetails">Information management (IM)</p>
+						<p>
+							Listen to the course of the Computer Science , and participated in the ACM competition . As the graduation team leader, and
+							won the prize in the competition ,Responsible for ios all the development, and the server set up in the school laboratory.
+						</p>
+					</article>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+		</div>
 	</div>
-</div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-3753241-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	</script>
 </body>
+
 </html>
